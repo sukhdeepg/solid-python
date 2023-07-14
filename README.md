@@ -1,1 +1,1 @@
-# solid-python
+# SOLID Principles in Python
