@@ -1,6 +1,10 @@
 ### 3. Liskov Substitution Principle
 If we have an object of superclass (A) and an object of child class (B), then we should be able to replace A with B without affecting the existing behaviour of the program.
 
+Consider a team of software developers using different IDEs (Integrated Development Environments) like Visual Studio, Eclipse, or PyCharm. Each IDE has its specific features and operations, but all of them allow for writing, editing, compiling, and debugging code.
+
+In the context of a developer's daily routine, any IDE could be substituted for another, and their tasks - writing, editing, compiling, and debugging code - can still be achieved. This mirrors the Liskov Substitution Principle: any subclass (specific IDE) can replace their superclass (general concept of an IDE) without affecting the correctness of the program (the developer's tasks).
+
 Continuing the example from the Open-closed principle, if we want to create a function that takes the `Hardware` and prints its functionality, we don’t want to create `if` `elif` `else` condition blocks to decide what to print. Instead, it will be much cleaner to create a generic function that just takes an object and prints the functionality.
 
 ```python
