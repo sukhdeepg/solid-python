@@ -1,5 +1,5 @@
 ### 3. Liskov Substitution Principle
-If we have an object of superclass (A) and an object of child class (B), then we should be able to replace A with B without affecting the existing behaviour of the program.
+This principle was introduced by [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov). If we have an object of superclass (A) and an object of child class (B), then we should be able to replace A with B without affecting the existing behaviour of the program.
 
 This Principle is about substitutability. Think about a vehicle rental service where they rent out cars. If they decide to offer motorbikes, those motorbikes should be able to be used wherever cars are used (like for transportation), without causing any issues. This is what LSP mandates in a programming context: if a program is using a base class (like "Vehicle"), and you decide to introduce a derived class (like "MotorBike"), the derived class should be able to be used wherever the base class is used, without causing any problems or changes in behavior.
 
